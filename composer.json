@@ -1,0 +1,13 @@
+{
+    "name": "oorkan/ss-bios",
+    "description": "Create, read, update and delete bios",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^7"
+    },
+    "authors": [
+        {
+            "name": "oorkan"
+        }
+    ]
+}

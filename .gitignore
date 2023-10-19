@@ -1,0 +1,6 @@
+vendor
+*~
+*.bak
+
+# Ignore Windows :Zone.Identifier files for security purposes
+*:Zone.Identifier

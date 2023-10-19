@@ -1,0 +1,46 @@
+.team {
+    margin: 0 !important;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.team-member {
+    list-style: none;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis:200px;
+}
+.team-member-photo, .bio-popup-photo {
+    flex: 1 0 200px;
+    margin: 20px;
+}
+.team-member-photo img, .bio-popup-photo img {
+    border-radius: 8px;
+    width: 200px;
+    height: auto;
+}
+.team-member-bio, .bio-popup-text {
+    vertical-align: top;
+    display: inline-block;
+    flex: 16 0 200px;
+    margin: 20px;
+}
+li.team-member h4 {
+    margin-top: 0;
+}
+li.team-member h4:nth-of-type(2) {
+    opacity: 0.3;
+}
+.bio-popup-container {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    max-width: 720px;
+}
+.bio-popup-text {
+    margin: 0 0 0 20px;
+    max-height: 400px;
+    overflow-y: auto;
+}
